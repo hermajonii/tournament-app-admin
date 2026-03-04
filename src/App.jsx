@@ -49,9 +49,9 @@ function App() {
     
     <>
        
-    <div className="d-flex align-items-center justify-content-center bg-dark">
-      <div className="card shadow-lg bg-dark text-light p-4" style={{ width: "100%", maxWidth: "450px" }}>
-        <h1 className="text-center mb-4 text-info">Rezultat utakmice</h1>
+    <div className="d-flex align-items-center justify-content-center bg-black">
+      <div className="card shadow-lg bg-black text-light p-4 rounded border-evergreen">
+        <h1 className="text-center mb-4 text-light bg-gradient rounded p-3">Rezultat utakmice</h1>
         <form onSubmit={handleSubmit}>
           <div className="row mb-3 text-light text-center">
             <div className="col">
@@ -119,15 +119,15 @@ function App() {
             />
           </div>
           <p className="text-info text-center">{message}</p>
-          <button type="submit" className="btn btn-outline-light w-100 btn-lg">
+          <button type="submit" className="btn btn-outline-light w-100 btn-lg assign-btn">
             POŠALJI REZULTAT
           </button>
         </form>
       </div>
     </div>
-    <div className="d-flex align-items-center justify-content-center bg-dark pt-3">
-      <div className="card shadow-lg bg-dark text-light p-4" style={{ width: "100%", maxWidth: "450px" }}>
-        <h1 className="text-center mb-4 text-info"> Zamena mesta: </h1>
+    <div className="d-flex align-items-center justify-content-center bg-black pt-3">
+      <div className="card shadow-lg bg-black text-light p-4 rounded border-evergreen">
+        <h1 className="text-center mb-4 text-light bg-gradient rounded p-3"> Zamena mesta: </h1>
         <form onSubmit={handleSubmit2}>
           <div className="row mb-3 text-light text-center">
             <div className="col">
@@ -167,7 +167,7 @@ function App() {
           </div>
          
           <p className="text-info text-center">{message2}</p>
-          <button type="submit" className="btn btn-outline-light w-100 btn-lg">
+          <button type="submit" className="btn btn-outline-light w-100 btn-lg assign-btn">
             ZAMENI
           </button>
         </form>

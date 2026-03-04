@@ -9,3 +9,58 @@ body {
     font-size: 100%;
     font-style: normal;
 }
+.bg-gradient{
+  background: linear-gradient(20deg, #00241B, #073812) !important;
+}
+.bg-black {
+  background-color: rgb(4, 4, 3);
+}
+.bg-orange {
+  background-color:#E18335  !important;
+}
+.bg-red {
+  background-color: #8F250C  !important;
+}
+.bg-evergreen {
+  background-color: #00241B !important;
+}
+.border-evergreen {
+  border-color:  #00241B !important;;
+}
+.text-black{
+  color: #040403  !important;
+}
+.text-orange{
+  color:#E18335  !important;
+}
+.text-red{
+  color: #8F250C !important;
+}
+.text-evergreen{
+  color: #00241B !important;
+}
+.assign-btn {
+  background: linear-gradient(20deg,#00241B,#073812 );
+  color: white;
+  border: none;
+  padding: 12px 26px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+  letter-spacing: 0.5px;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 14px #073812;
+}
+
+.assign-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px #073812;
+  background: linear-gradient(135deg,#00241B,#073812 );
+}
+
+.assign-btn:active {
+  transform: scale(0.98);
+}
+input{
+  font-family: 'Jost';
+}
