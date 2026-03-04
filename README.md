@@ -6,7 +6,7 @@ A web application for managing tournaments — registering teams, entering match
 
 This project is a small SPA (single-page application) built in React for handling basic tournament operations.  
 Frontend for basic user is deployed on GitHub Pages: [https://hermajonii.github.io/tournament-app/](https://hermajonii.github.io/tournament-app/)  
-Frontend for admin is deployed on GitHub Pages: [https://hermajonii.github.io/tournament-live/](https://hermajonii.github.io/tournament-live/)  
+Frontend for admin is deployed on GitHub Pages: [https://hermajonii.github.io/tournament-app-admin/](https://hermajonii.github.io/tournament-app-admin/)  
 Backend API is hosted on Render: [https://tournament-backend-app.onrender.com/](https://tournament-backend-app.onrender.com/)
 
 Key functionalities:
@@ -38,7 +38,7 @@ Admin:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/hermajonii/tournament-live.git
+   git clone https://github.com/hermajonii/tournament-app-admin.git
    ```
 2. Install NPM packages
    ```sh
