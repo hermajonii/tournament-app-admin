@@ -64,3 +64,30 @@ body {
 input{
   font-family: 'Jost';
 }
+.bg-black {
+  background-color: rgb(4, 4, 3);
+}
+.bg-orange {
+  background-color:#E18335  !important;
+}
+.bg-red {
+  background-color: #8F250C  !important;
+}
+.bg-evergreen {
+  background-color: #00241B !important;
+}
+.border-evergreen {
+  border-color:  #00241B !important;;
+}
+.text-black{
+  color: #040403  !important;
+}
+.text-orange{
+  color:#E18335  !important;
+}
+.text-red{
+  color: #8F250C !important;
+}
+.text-evergreen{
+  color: #00241B !important;
+}
