@@ -26,7 +26,7 @@ function App() {
 };
   const fetchPlayers = async () => {
     try {
-      const res = await fetch(`http://localhost:5000/players`);
+      const res = await fetch(`https://tournament-backend-app.onrender.com/players`);
       const data = await res.json();
       setPlayers(data);
     } catch (err) {
@@ -36,7 +36,7 @@ function App() {
   
   const fetchSignups = async () => {
     try {
-      const res = await fetch(`http://localhost:5000/signups`);
+      const res = await fetch(`https://tournament-backend-app.onrender.com/signups`);
       const data = await res.json();
       setSignups(data);
     } catch (err) {
@@ -52,7 +52,7 @@ function App() {
     // Sadržaj koji će se upisati u fajl
     const content = { key:key, first:team1, second:team2, firstScore:score1, secondScore:score2 };
     try { 
-      const res = await fetch("http://localhost:5000/add-score", {
+      const res = await fetch("https://tournament-backend-app.onrender.com/add-score", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(content),
@@ -68,7 +68,7 @@ function App() {
     // Sadržaj koji će se upisati u fajl
     const content = { first: Player1, second: Player2, key:key2};
     try {
-      const res = await fetch("http://localhost:5000/change-players", {
+      const res = await fetch("https://tournament-backend-app.onrender.com/change-players", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(content),
@@ -83,7 +83,7 @@ function App() {
     e.preventDefault();
     try {
       const content ={players:players, key:key3};
-      const res = await fetch("http://localhost:5000/players", {
+      const res = await fetch("https://tournament-backend-app.onrender.com/players", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(content),
